@@ -62,7 +62,7 @@ public class Menu {
                      continuar = deseaContinuar(value);
             }else
                     if (value.contentEquals("2") || value.contentEquals("4")){
-                        System.out.println("Introduce el valor para convertir:  ");
+                        System.out.println("Introduce el valor para convertir...:  ");
                         value = reader.nextLine();
                         origen = "C";
                         destino = "F";
